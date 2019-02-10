@@ -1,0 +1,10 @@
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #f6f2de;
+
+  &:hover {
+    background-color: #e9e6d3;
+  }
+}

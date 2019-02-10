@@ -1,0 +1,23 @@
+.wrapper {
+  overflow: hidden;
+  font-family: $f-gotham;
+  // background-color: #f6f2de
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 100%;
+  padding: 20px 30px;
+  margin: 0 auto;
+
+  // @media ($m-s) {
+  //   width: 1440px;
+  // }
+
+  // @media ($m-m) {
+  //   padding: 20px 30px;
+  // }
+}
