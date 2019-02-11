@@ -1,49 +1,7 @@
 @font-face {
-  font-family: 'Gotham Pro';
-  src: url("../fonts/gothampro-light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Gotham Pro';
-  src: url("../fonts/gothampro.woff") format("woff");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-light.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-light-lat.woff2") format("woff2");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-light.ttf") format("ttf");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-regular-lat.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Oswald';
-  src: url("../fonts/oswald-regular.ttf") format("ttf");
-  font-weight: 400;
+  font-family: 'Arial';
+  src: url("../fonts/Arial-BoldMT.woff") format("woff");
+  font-weight: 700;
   font-style: normal; }
 
 html {
@@ -60,19 +18,18 @@ html {
 *::after {
   box-sizing: inherit; }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block; }
-
 body {
-  font-family: 'Gotham Pro', 'Arial', sans-serif;
+  font-family: "Arial", Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
   height: 100%; }
 
 .wrapper {
+  height: 100%;
+  padding: 20px 30px;
   overflow: hidden;
-  font-family: "Gotham Pro", Arial, sans-serif; }
+  font-family: "Arial", Arial, sans-serif; }
 
 .container {
   max-width: 100%;
@@ -87,24 +44,18 @@ body {
   .bg:hover {
     background-color: #e9e6d3; }
 
-.wrapper {
-  height: 100%;
-  padding: 20px 30px; }
-
 .cards {
   position: relative; }
 
 .card__obj {
   height: calc(100vh - 40px);
-  background-color: white;
+  background-color: #FFFFFF;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 0;
   box-shadow: 0px 0px 8px 0px rgba(1, 1, 1, 0.2); }
-  .card__obj:hover .bg {
-    background-color: #e9e6d3; }
   .card__obj--narrow {
     width: 400px; }
   .card__obj--wide {

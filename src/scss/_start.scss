@@ -14,12 +14,8 @@ html {
   box-sizing: inherit;
 }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-}
-
 body {
-  font-family: 'Gotham Pro', 'Arial', sans-serif;
+  font-family: $f-arial;
   font-size: 18px;
   font-weight: normal;
   margin: 0;

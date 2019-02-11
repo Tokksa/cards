@@ -2,9 +2,9 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #f6f2de;
+  background-color: $c-bg;
 
   &:hover {
-    background-color: #e9e6d3;
+    background-color: $c-hoverBg;
   }
 }
